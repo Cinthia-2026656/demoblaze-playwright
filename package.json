@@ -1,0 +1,18 @@
+{
+  "name": "demoblaze-playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation for demoblaze.com (auth-first build)",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:auth": "playwright test tests/auth.spec.ts",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^22.13.0",
+    "typescript": "^5.6.0"
+  }
+}
